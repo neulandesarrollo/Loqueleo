@@ -1,0 +1,16 @@
+<Alloy>
+	<Window class="container" id="preescolarList">
+		<View id="topBar"></View>
+		<View id="content">
+			<ImageView id="imageBar" />
+			<Button id="topListBar"><Label id="topLbl">MATERNAL</Label></Button>
+			<TableView id="table">
+        	</TableView>
+		</View>
+		<View id="bottomBar">
+			<Button id="bookBtn"><Label id="bookLbl"></Label></Button>
+			<Button id="searchBtn"><Label id="searchLbl"></Label></Button>
+			<Button id="menuBtn"><Label id="menuLbl"></Label></Button>
+		</View>
+	</Window>
+</Alloy>

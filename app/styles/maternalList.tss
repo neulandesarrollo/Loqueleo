@@ -1,0 +1,164 @@
+".container": {
+	height: Ti.UI.FILL,
+	layout: 'vertical',
+	width: Ti.UI.FILL,
+	backgroundColor:"#FFF",
+},
+
+"#topBar[platform=ios]": {
+	backgroundColor:"#FFF",
+    width: Ti.UI.FILL,
+    height: "3%",
+    top: 0,
+    left: 0
+},
+
+"#topBar[platform=android]": {
+	backgroundColor:"#FFF",
+    width: Ti.UI.FILL,
+    height: 0,
+    top: 0,
+    left: 0
+},
+
+"#content[platform=ios]": {
+	backgroundColor:"#FFF",
+    width: Ti.UI.FILL,
+    height: "88%",
+    top: 0,
+    left: 0
+},
+
+"#content[platform=android]": {
+	backgroundColor:"#FFF",
+    width: Ti.UI.FILL,
+    height: "91%",
+    top: 0,
+    left: 0
+},
+
+"#imageBar": {
+	image:"/images/pleca_lateral_preescolar.jpg",
+    width: "15%",
+    height: Ti.UI.FILL,
+    top: 0,
+    left: 0
+},
+
+"#topListBar[platform=ios]": {
+	backgroundImage:"/images/pleca_titulos_preescolar.jpg",
+    width: "88%",
+    height: "10%",
+    top: 0,
+    left: "12%"
+},
+
+'#topLbl[platform=ios]': {
+	color:"#FFF"
+},
+
+"#topListBar[platform=android]": {
+	backgroundImage:"/images/pleca_titulos_preescolar.jpg",
+	title: "MATERNAL",
+	font:
+	{ 
+		fontFamily: "Helvetica-Light", 
+		fontSize: 28,
+		color: "#FFF" 
+	},
+    width: "88%",
+    height: "10%",
+    top: 0,
+    left: "12%"
+},
+
+'#topLbl[platform=android]': {
+	color:"#FFF",
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+},
+
+'#table': {
+	top:"10%",
+	width: "85%",
+	height: "90%",
+	left: "15%",
+	color:"#424242"
+}
+
+"#bottomBar": {
+	backgroundColor:"#424242",
+    width: Ti.UI.FILL,
+    height: "9%",
+    bottom: 0,
+    left: 0
+},
+
+'#bookBtn[platform=ios]': {
+ 	height: Ti.UI.FILL,
+ 	backgroundColor:"#424242",
+ 	top: 0,
+ 	left: 0,
+ 	width: '33%'
+},
+
+'#bookBtn[platform=android]': {
+ 	height: "50%",
+ 	backgroundColor:"#424242",
+ 	backgroundImage:"/images/book-icon.png",
+ 	top: "25%",
+ 	left: "15%",
+ 	width: '10%'
+},
+
+'#bookLbl[platform=ios]': {
+ 	backgroundImage:"/images/book-icon.png",
+ 	height: "50%",
+ 	width: "30%"
+},
+
+'#searchBtn[platform=ios]': {
+ 	height: Ti.UI.FILL,
+ 	backgroundColor:"#424242",
+ 	top: 0,
+ 	left: "33%",
+ 	width: '33%'
+},
+
+'#searchBtn[platform=android]': {
+ 	height: "50%",
+ 	backgroundColor:"#424242",
+ 	backgroundImage:"/images/search-icon.png",
+ 	top: "25%",
+ 	left: "45%",
+ 	width: '10%'
+},
+
+'#searchLbl[platform=ios]': {
+ 	backgroundImage:"/images/search-icon.png",
+ 	height: "50%",
+ 	width: "30%"
+},
+
+'#menuBtn[platform=ios]': {
+ 	height: Ti.UI.FILL,
+ 	backgroundColor:"#424242",
+ 	top: 0,
+ 	left: "66%",
+ 	width: '34%'
+},
+
+'#menuBtn[platform=android]': {
+ 	height: "50%",
+ 	backgroundColor:"#424242",
+ 	backgroundImage:"/images/menu-icon.png",
+ 	top: "25%",
+ 	left: "75%",
+ 	width: '10%'
+},
+
+'#menuLbl[platform=ios]': {
+ 	backgroundImage:"/images/menu-icon.png",
+ 	height: "50%",
+ 	width: "30%"
+}

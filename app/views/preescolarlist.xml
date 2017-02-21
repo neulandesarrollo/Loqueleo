@@ -1,0 +1,21 @@
+<Alloy>
+	<Window class="container" id="preescolarList">
+		<View id="topBar"></View>
+		<View id="content">
+			<ImageView id="imageBar" />
+			<Button id="topListBar"><Label id="topLbl">PREESCOLAR</Label></Button>
+			<Button id="maternalBtn" onClick="openMaternal"><Label id="maternalLbl">Maternal</Label></Button>
+			<View id="line1"></View>
+			<Button id="unopreescolarBtn"><Label id="unopreescolarLbl">1ro de Preescolar</Label></Button>
+			<View id="line2"></View>
+			<Button id="dospreescolarBtn"><Label id="dospreescolarLbl">2do de Preescolar</Label></Button>
+			<View id="line3"></View>
+			<Button id="trespreescolarBtn"><Label id="trespreescolarLbl">3ro de Preescolar</Label></Button>
+		</View>
+		<View id="bottomBar">
+			<Button id="bookBtn"><Label id="bookLbl"></Label></Button>
+			<Button id="searchBtn"><Label id="searchLbl"></Label></Button>
+			<Button id="menuBtn"><Label id="menuLbl"></Label></Button>
+		</View>
+	</Window>
+</Alloy>
