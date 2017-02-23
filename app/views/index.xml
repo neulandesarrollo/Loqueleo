@@ -4,12 +4,12 @@
 		<View id="content">
 			<ImageView id="imageBar" />
 			<Button id="preschoolBtn" onClick="openPreescolar"><Label id="prescolarLbl"></Label></Button>
-			<Button id="primariaBtn"><Label id="primariaLbl"></Label></Button>
-			<Button id="secundariaBtn"><Label id="secundariaLbl"></Label></Button>
-			<Button id="bachilleratoBtn"><Label id="bachilleratoLbl"></Label></Button>
+			<Button id="primariaBtn" onClick="openPrimaria"><Label id="primariaLbl"></Label></Button>
+			<Button id="secundariaBtn" onClick="openSecundaria"><Label id="secundariaLbl"></Label></Button>
+			<Button id="bachilleratoBtn" onClick="openBachillerato"><Label id="bachilleratoLbl"></Label></Button>
 		</View>
 		<View id="bottomBar">
-			<Button id="bookBtn"><Label id="bookLbl"></Label></Button>
+			<Button id="bookBtn"><Label	 id="bookLbl"></Label></Button>
 			<Button id="searchBtn"><Label id="searchLbl"></Label></Button>
 			<Button id="menuBtn"><Label id="menuLbl"></Label></Button>
 		</View>

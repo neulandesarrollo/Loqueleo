@@ -3,4 +3,21 @@ function openPreescolar(e) {
 	ne.open();
 }
 
+function openPrimaria(e) 
+{
+  var op = Alloy.createController('primariaList').getView();
+  op.open();	
+}
+function openSecundaria(e) 
+{
+  var op = Alloy.createController('secundariaList').getView();
+  op.open();	
+}
+
+function openBachillerato(e) 
+{
+  var op = Alloy.createController('bachilleratoList').getView();
+  op.open();	
+}
+
 $.index.open();

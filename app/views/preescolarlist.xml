@@ -6,11 +6,11 @@
 			<Button id="topListBar"><Label id="topLbl">PREESCOLAR</Label></Button>
 			<Button id="maternalBtn" onClick="openMaternal"><Label id="maternalLbl">Maternal</Label></Button>
 			<View id="line1"></View>
-			<Button id="unopreescolarBtn"><Label id="unopreescolarLbl">1ro de Preescolar</Label></Button>
+			<Button id="unopreescolarBtn" onClick="open1ropreescolar"><Label id="unopreescolarLbl">1ro de Preescolar</Label></Button>
 			<View id="line2"></View>
-			<Button id="dospreescolarBtn"><Label id="dospreescolarLbl">2do de Preescolar</Label></Button>
+			<Button id="dospreescolarBtn" onClick="open2dopreescolar"><Label id="dospreescolarLbl">2do de Preescolar</Label></Button>
 			<View id="line3"></View>
-			<Button id="trespreescolarBtn"><Label id="trespreescolarLbl">3ro de Preescolar</Label></Button>
+			<Button id="trespreescolarBtn" onClick="open3ropreescolar"><Label id="trespreescolarLbl">3ro de Preescolar</Label></Button>
 		</View>
 		<View id="bottomBar">
 			<Button id="bookBtn"><Label id="bookLbl"></Label></Button>

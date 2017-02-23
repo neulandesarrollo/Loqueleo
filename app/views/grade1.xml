@@ -1,9 +1,9 @@
 <Alloy>
-	<Window class="container" id="preescolarList">
+	<Window class="container" id="primariaList">
 		<View id="topBar"></View>
 		<View id="content">
 			<ImageView id="imageBar" />
-			<Button id="topListBar"><Label id="topLbl">MATERNAL</Label></Button>
+			<Button id="topListBar"><Label id="topLbl">GRADO 1</Label></Button>
 			<TableView id="table">
         	</TableView>
 		</View>

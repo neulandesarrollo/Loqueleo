@@ -38,7 +38,7 @@
 },
 
 "#imageBar": {
-	image:"/images/pleca_lateral_preescolar.jpg",
+	image:"/images/pleca-lateral-bachillerato.jpg",
     width: "15%",
     height: Ti.UI.FILL,
     top: 0,
@@ -46,7 +46,7 @@
 },
 
 "#topListBar[platform=ios]": {
-	backgroundImage:"/images/pleca_titulos_preescolar.jpg",
+	backgroundImage:"/images/pleca-titulos-bachillerato.jpg",
     width: "88%",
     height: "10%",
     top: 0,
@@ -58,8 +58,8 @@
 },
 
 "#topListBar[platform=android]": {
-	backgroundImage:"/images/pleca_titulos_preescolar.jpg",
-	title: "PREESCOLAR",
+	backgroundImage:"/images/pleca-titulos-bachillerato.jpg",
+	title: "PRIMARIA",
 	font:
 	{ 
 		fontFamily: "Helvetica-Light", 
@@ -79,140 +79,113 @@
 },
 
 "#line1": {
-    height: '5%',
+    height: '1%',
    	top: "32%",
     left: '20%',
     width: '75%',
     borderWidth: '1',
-    borderColor:'#80b23e',
-    backgroundColor:'#80b23e'
+    borderColor:'#f72b2b',
+    backgroundColor:'#f72b2b'
 },
 
 "#line2": {
-    height: '5%',
+    height: '1%',
    	top: "54.5%",
     left: '20%',
     width: '75%',
     borderWidth: '1',
-    borderColor:'#80b23e',
-    backgroundColor:'#80b23e'
+    borderColor:'#f72b2b',
+    backgroundColor:'#f72b2b'
 },
 
 "#line3": {
-    height: '5%',
+    height: '1%',
    	top: "77%",
     left: '20%',
     width: '75%',
     borderWidth: '1',
-    borderColor:'#80b23e',
-    backgroundColor:'#80b23e'
+    borderColor:'#f72b2b',
+    backgroundColor:'#f72b2b'
 },
 
-'#maternalBtn[platform=ios]': {
+'#grade1highschoolBtn[platform=ios]': {
 	backgroundColor:"#FFF",
- 	height: '21.5%',
+ 	height: '15%',
  	top: "10%",
  	left: "15%",
  	width: '85%'
 },
 
-'#maternalBtn[platform=android]': {
+'#grade1highschoolBtn[platform=android]': {
 	backgroundColor:"#FFF",
-	title: "Maternal",
+	title: "Grado 1",
 	font:
 	{ 
 		fontFamily: "Helvetica-Light", 
 		fontSize: 18
 	},
 	color:"#424242",
- 	height: '21.5%',
+ 	height: '15%',
  	top: "10%",
  	left: "15%",
  	width: '85%'
 },
 
-'#maternalLbl[platform=ios]': {
+'#grade1highschoolLbl[platform=ios]': {
 	color:"#424242"
 },
 
-'#unopreescolarBtn[platform=ios]': {
+'#grade2highschoolBtn[platform=ios]': {
 	backgroundColor:"#FFF",
- 	height: '21.5%',
+ 	height: '15%',
  	top: "32.5%",
  	left: "15%",
  	width: '85%'
 },
 
-'#unopreescolarBtn[platform=android]': {
+'#grade2highschoolBtn[platform=android]': {
 	backgroundColor:"#FFF",
-	title: "1ro de Preescolar",
+	title: "Grado 2",
 	font:
 	{ 
 		fontFamily: "Helvetica-Light", 
 		fontSize: 18
 	},
 	color:"#424242", 
- 	height: '21.5%',
+ 	height: '15%',
  	top: "32.5%",
  	left: "15%",
  	width: '85%'
 },
 
-'#unopreescolarLbl[platform=ios]': {
+'#grade2highschoolLbl[platform=ios]': {
  	color:"#424242"
 },
 
-'#dospreescolarBtn[platform=ios]': {
+'#grade3highschoolBtn[platform=ios]': {
 	backgroundColor:"#FFF",
- 	height: '21.5%',
+ 	height: '15%',
  	top: "55%",
  	left: "15%",
  	width: '85%'
 },
 
-'#dospreescolarBtn[platform=android]': {
+'#grade3highschoolBtn[platform=android]': {
 	backgroundColor:"#FFF",
-	title: "2do de Preescolar",
+	title: "GradO 3",
 	font:
 	{ 
 		fontFamily: "Helvetica-Light", 
 		fontSize: 18
 	},
 	color:"#424242",
- 	height: '21.5%',
+ 	height: '15%',
  	top: "55%",
  	left: "15%",
  	width: '85%'
 },
 
-'#dospreescolarLbl[platform=ios]': {
- 	color:"#424242"
-},
-
-'#trespreescolarBtn[platform=ios]': {
-	backgroundColor:"#FFF",
- 	height: '22.5%',
- 	top: "77.5%",
- 	left: "15%",
- 	width: '85%'
-},
-
-'#trespreescolarBtn[platform=android]': {
-	backgroundColor:"#FFF",
-	title: "3ro de Preescolar",
-	font:
-	{ 
-		fontFamily: "Helvetica-Light", 
-		fontSize: 18
-	},
-	color:"#424242",
- 	height: '22.5%',
- 	top: "77.5%",
- 	left: "15%",
- 	width: '85%'
-},
-
-'#trespreescolarLbl[platform=ios]': {
+'#grade3highschoolLbl[platform=ios]': {
  	color:"#424242"
 },
 
@@ -291,4 +264,4 @@
  	backgroundImage:"/images/menu-icon.png",
  	height: "50%",
  	width: "30%"
-}
+ }

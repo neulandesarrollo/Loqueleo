@@ -1,0 +1,25 @@
+<Alloy>
+	<Window class="container" id="primariaList">
+		<View id="topBar"></View>
+		<View id="content">
+			<ImageView id="imageBar" />
+			<Button id="topListBar"><Label id="topLbl">PRIMARIA</Label></Button>
+			<Button id="grade1Btn" onClick="openGrade1"><Label id="grade1Lbl">Grado 1</Label></Button>
+			<View id="line1"></View>
+			<Button id="grade2Btn" onClick="openGrade2"><Label id="grade2Lbl">Grado 2</Label></Button>
+			<View id="line2"></View>
+			<Button id="grade3Btn" onClick="openGrade3"><Label id="grade3Lbl">Grado 3</Label></Button>
+			<View id="line3"></View>
+			<Button id="grade4Btn" onClick="openGrade4"><Label id="grade4Lbl">Grado 4</Label></Button>
+			<View id="line4"></View>
+			<Button id ="grade5Btn" onClick="openGrade5"><Label id="grade5Lbl">Grado 5</Label></Button>
+			<View id="line5"></View>
+			<Button id ="grade6Btn" onClick="openGrade6"><Label id="grade6Lbl">Grado 6</Label></Button>
+		</View>
+		<View id="bottomBar">
+			<Button id="bookBtn"><Label id="bookLbl"></Label></Button>
+			<Button id="searchBtn"><Label id="searchLbl"></Label></Button>
+			<Button id="menuBtn" onClick="doClick"><Label id="menuLbl"></Label></Button>
+		</View>
+	</Window>
+</Alloy>
