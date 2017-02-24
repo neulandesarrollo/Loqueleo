@@ -3,15 +3,15 @@ var args = $.args;
 
 
 var tbl_data = [
-    {title:'Alejandro: Un joven que conquisto el mundo', leftImage: '/images/portada1.jpg'}
+    {title:'La estupenda mamá de Roberta', leftImage: '/images/portada1.jpg'}
 ];
 
 var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Alejandro: Un joven que conquisto el mundo'
+		leftImage: '/images/mamaroberta.jpg',
+		title:'La estupenda mamá de Roberta'
 	},
 	{
 		height: 15
@@ -19,8 +19,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Buenos, malos y peores 2015'
+		leftImage: '/images/coneja.jpg',
+		title:'Cuentos de abuela coneja'
 	},
 	{
 		height: 15
@@ -28,8 +28,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},  
-		leftImage: '/images/portada1.jpg',
-		title:'Caleidoscopio'
+		leftImage: '/images/olchis.jpg',
+		title:'Los olchis en el castillo de Rabenstein'
 	},
 	{
 		height: 15
@@ -37,8 +37,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Charlie y la fabrica de chocolate 2015'
+		leftImage: '/images/rey.jpg',
+		title:'tey por un rato'
 	},
 	{
 		height: 15
@@ -46,8 +46,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'No voy a leer este libro'
+		leftImage: '/images/tele.jpg',
+		title:'¡No funcion la tele!'
 	},
 	{
 		height: 15
@@ -55,8 +55,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Cuentos escritos a màquina 2015'
+		leftImage: '/images/sirena.jpg',
+		title:'Mi hermana quiere ser una sirena'
 	},
 	{
 		height: 15
@@ -64,8 +64,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Dori Fantasmagori'
+		leftImage: '/images/mascotabacteria.jpg',
+		title:'Mi mascota es una bacteria'
 	},
 	{
 		height: 15
@@ -73,8 +73,44 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'El detective Lucas'
+		leftImage: '/images/epaminondas.jpg',
+		title:'Epaminondas'
+	},
+	{
+		height: 15
+	},
+	{
+		color: "#424242",
+		font:{fontSize:14},
+		leftImage: '/images/cigarra.jpg',
+		title:'La cigarra, la hormiga y el chapulín'
+	},
+	{
+		height: 15
+	},
+	{
+		color: "#424242",
+		font:{fontSize:14},
+		leftImage: '/images/crictor.jpg',
+		title:'Crictor'
+	},
+	{
+		height: 15
+	},
+	{
+		color: "#424242",
+		font:{fontSize:14},
+		leftImage: '/images/guapa.jpg',
+		title:'Guapa'
+	},
+	{
+		height: 15
+	},
+	{
+		color: "#424242",
+		font:{fontSize:14},
+		leftImage: '/images/rafa.jpg',
+		title:'Rafa cuenta una historia'
 	}
 ];
 

@@ -1,77 +1,86 @@
 // Arguments passed into this controller can be accessed via the `$.args` object directly or:
 var args = $.args;
 
-var tbl_data = [
-    {title:'Un circo un poco raro', leftImage: '/images/portada1.jpg'}
-];
+var tbl_data = [{
+	title : 'Un circo un poco raro',
+	leftImage : '/images/portada1.jpg'
+}];
 
-var data = [
-	{
-		color: "#424242",
-		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Un circo un poco raro'
+var data = [{
+	color : "#424242",
+	font : {
+		fontSize : 14
 	},
-	{
-		height: 15
+	leftImage : '/images/quiensoy.jpg',
+	title : '¿Quien soy yo?'
+}, {
+	height : 15
+}, {
+	color : "#424242",
+	font : {
+		fontSize : 14
 	},
-	{
-		color: "#424242",
-		font:{fontSize:14},
-		leftImage: '/images/hombrecillolluvia.jpg',
-		title:'El hombresillo de la lluvia'
+	leftImage : '/images/grandepeque.jpg',
+	title : 'Yo grande, tú pequeño'
+}, {
+	height : 15
+}, {
+	color : "#424242",
+	font : {
+		fontSize : 14
 	},
-	{
-		height: 15
+	leftImage : '/images/circoraro.jpg',
+	title : 'Un circo un poco raro'
+}, {
+	height : 15
+}, {
+	color : "#424242",
+	font : {
+		fontSize : 14
 	},
-	{
-		color: "#424242",
-		font:{fontSize:14},  
-		leftImage: '/images/estrellamar.jpg',
-		title:'¿Dónde está la estrella de mar?'
+	leftImage : '/images/cebra.jpg',
+	title : '¿De qué color es la cebra?'
+}, {
+	height : 15
+}, {
+	color : "#424242",
+	font : {
+		fontSize : 14
 	},
-	{
-		height: 15
+	leftImage : '/images/habianube.jpg',
+	title : 'Había una vez una nube'
+}, {
+	height : 15
+}, {
+	color : "#424242",
+	font : {
+		fontSize : 14
 	},
-	{
-		color: "#424242",
-		font:{fontSize:14},
-		leftImage: '/images/quiensoy.jpg',
-		title:'¿Quién soy yo?'
+	leftImage : '/images/estrellamar.jpg',
+	title : '¿Dónde está la estrella de mar?'
+}, {
+	height : 15
+}, {
+	color : "#424242",
+	font : {
+		fontSize : 14
 	},
-	{
-		height: 15
+	leftImage : '/images/librocanta.jpg',
+	title : 'El libro que canta'
+}, {
+	height : 15
+}, {
+	color : "#424242",
+	font : {
+		fontSize : 14
 	},
-	{
-		color: "#424242",
-		font:{fontSize:14},
-		leftImage: '/images/novoyaleer.jpg',
-		title:'No voy a leer este libro'
-	},
-	{
-		height: 15
-	},
-	{
-		color: "#424242",
-		font:{fontSize:14},
-		leftImage: '/images/papamagico.jpg',
-		title:'Mi papá es mágico'
-	},
-	{
-		height: 15
-	},
-	{
-		color: "#424242",
-		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'El Libro que canta'
-	}
-];
+	leftImage : '/images/cosquillas.jpg',
+	title : 'El señor cosquillas'
+}];
 
-function doClick(e)
-{
+function doClick(e) {
 	var home = Alloy.createController('index').getView();
-    home.open();
+	home.open();
 }
 
-$.table.setData(data);
+$.table.setData(data); 

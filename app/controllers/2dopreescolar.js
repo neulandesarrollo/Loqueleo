@@ -2,24 +2,24 @@
 var args = $.args;
 
 var tbl_data = [
-    {title:'Lorem ipsum', leftImage: '/images/portada1.jpg'}
+    {title:'¡Date una vuelta en bici!', leftImage: '/images/portada1.jpg'}
 ];
 
 var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
+		leftImage: '/images/vueltabici.jpg',
+		title:'¡Date una vuelta en bici!'
 	},
 	{
-		height: 15
+		height:15
 	},
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
+		leftImage: '/images/alarota.jpg',
+		title:'¿Como sanar un ala rota?'
 	},
 	{
 		height: 15
@@ -27,8 +27,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},  
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
+		leftImage: '/images/sueno.jpg',
+		title:'Canciones para llamar el sueño'
 	},
 	{
 		height: 15
@@ -36,8 +36,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
+		leftImage: '/images/tomasito.jpg',
+		title:'Tomasito y las palabras'
 	},
 	{
 		height: 15
@@ -45,8 +45,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
+		leftImage: '/images/brujas.jpg',
+		title:'¿Porqué hay brujas en las veletas?'
 	},
 	{
 		height: 15
@@ -54,8 +54,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
+		leftImage: '/images/rico.jpg',
+		title:'Mmm, ¡qué rico esta!'
 	},
 	{
 		height: 15
@@ -63,8 +63,17 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
+		leftImage: '/images/harold.jpg',
+		title:'El cuento de hadas de Harold'
+	},
+	{
+		height: 15
+	},
+	{
+		color: "#424242",
+		font:{fontSize:14},
+		leftImage: '/images/pelos.jpg',
+		title:'Yo contra los mil y un pelos'
 	}
 ];
 

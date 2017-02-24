@@ -2,24 +2,24 @@
 var args = $.args;
 
 var tbl_data = [
-    {title:'Lorem ipsum', leftImage: '/images/portada1.jpg'}
+    {title:'Un circo un poco raro', leftImage: '/images/portada1.jpg'}
 ];
 
 var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
+		leftImage: '/images/hombrecillolluvia.jpg',
+		title:'El hombresillo de la lluvia'
 	},
 	{
-		height: 15
+		height:15
 	},
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
+		leftImage: '/images/papamagico.jpg',
+		title:'Mi papá es mágico'
 	},
 	{
 		height: 15
@@ -27,8 +27,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},  
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
+		leftImage: '/images/quecofusion.jpg',
+		title:'¡Que confusión!'
 	},
 	{
 		height: 15
@@ -36,8 +36,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
+		leftImage: '/images/lechucitas.jpg',
+		title:'Las lechucitas'
 	},
 	{
 		height: 15
@@ -45,8 +45,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
+		leftImage: '/images/novoyaleer.jpg',
+		title:'No voy a leer este libro'
 	},
 	{
 		height: 15
@@ -54,17 +54,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
-	},
-	{
-		height: 15
-	},
-	{
-		color: "#424242",
-		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
+		leftImage: '/images/tintodonte.jpg',
+		title:'El tintodonte'
 	}
 ];
 
