@@ -16,7 +16,7 @@ function openSecundaria(e)
 
 function openBachillerato(e) 
 {
-  var op = Alloy.createController('bachilleratoList').getView();
+  var op = Alloy.createController('grade1highschool').getView();
   op.open();	
 }
 

@@ -6,7 +6,7 @@ var tbl_data = [
     {title:'Tú no existes', leftImage: '/images/portada1.jpg'}
 ];
 
-var data = [
+var data = [ 
 	{
 		color: "#424242",
 		font:{fontSize:14},

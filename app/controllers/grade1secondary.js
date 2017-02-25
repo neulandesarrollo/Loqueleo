@@ -3,15 +3,15 @@ var args = $.args;
 
 
 var tbl_data = [
-    {title:'Mujeres de ciencia', leftImage: '/images/portada1.jpg'}
+    {title:'Mañanas de escuela', leftImage: '/images/portada1.jpg'}
 ];
 
-var data = [
+var data = [ 
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Mujeres de ciencia'
+		leftImage: '/images/mananas.jpg',
+		title:'Mañanas de escuela'
 	},
 	{
 		height: 15
@@ -19,8 +19,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Los chimpancés miran a los ojos'
+		leftImage: '/images/todobien.jpg',
+		title:'Todo bien, todo bien'
 	},
 	{
 		height: 15
@@ -28,7 +28,16 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},  
-		leftImage: '/images/portada1.jpg',
+		leftImage: '/images/chimpances.jpg',
+		title:'Los chimpancés miran a los ojos'
+	},
+	{
+		height: 15
+	},
+	{
+		color: "#424242",
+		font:{fontSize:14},
+		leftImage: '/images/exploto.jpg',
 		title:'El día que explotó la abuela'
 	},
 	{
@@ -37,7 +46,7 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
+		leftImage: '/images/danny.jpg',
 		title:'Danny, el campeón del mundo'
 	},
 	{
@@ -46,8 +55,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'El señor del cero'
+		leftImage: '/images/momo.jpg',
+		title:'Momo'
 	},
 	{
 		height: 15
@@ -55,7 +64,16 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
+		leftImage: '/images/cero.jpg',
+		title:'El señor del Cero'
+	},
+	{
+		height: 15
+	},
+	{
+		color: "#424242",
+		font:{fontSize:14},
+		leftImage: '/images/bermejo.jpg',
 		title:'A sangre y fuego. La historia del pirata Bermejo'
 	},
 	{
@@ -64,8 +82,8 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'El detective Lucas'
+		leftImage: '/images/mitos.jpg',
+		title:'Mitos y recuerdos'
 	},
 	{
 		height: 15
@@ -73,8 +91,26 @@ var data = [
 	{
 		color: "#424242",
 		font:{fontSize:14},
-		leftImage: '/images/portada1.jpg',
-		title:'Lorem'
+		leftImage: '/images/panteon.jpg',
+		title:'El caso del cerro Panteón'
+	},
+	{
+		height: 15
+	},
+	{
+		color: "#424242",
+		font:{fontSize:14},
+		leftImage: '/images/burros.jpg',
+		title:'Los secuestradores de burros'
+	},
+	{
+		height: 15
+	},
+	{
+		color: "#424242",
+		font:{fontSize:14},
+		leftImage: '/images/ciencia.jpg',
+		title:'Mujeres de ciencia'
 	}
 ];
 
