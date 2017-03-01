@@ -1,0 +1,452 @@
+".container": {
+	height: Ti.UI.FILL,
+	layout: 'vertical',
+	width: Ti.UI.FILL,
+	backgroundColor:"#FFF",
+},
+
+"#topBar[platform=ios]": {
+	backgroundColor:"#FFF",
+    width: Ti.UI.FILL,
+    height: "3%",
+    top: 0,
+    left: 0
+},
+
+"#topBar[platform=android]": {
+	backgroundColor:"#FFF",
+    width: Ti.UI.FILL,
+    height: 0,
+    top: 0,
+    left: 0
+},
+
+"#scrollView": {
+	backgroundColor:"#FFF",
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    contentWidth: Ti.UI.SIZE,
+	contentHeight: "auto",
+  	showVerticalScrollIndicator: true,
+  	showHorizontalScrollIndicator: false,
+    layout:'vertical',
+    top: "10%",
+    left: 0
+},
+
+"#webview": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    top: "10%",
+    left: 0,
+    visible: false
+},
+
+"#content[platform=ios]": {
+	backgroundColor:"#FFF",
+    width: Ti.UI.FILL,
+    height: "88%",
+    top: 0,
+    left: 0
+},
+
+"#content[platform=android]": {
+	backgroundColor:"#FFF",
+    width: Ti.UI.FILL,
+    height: "91%",
+    top: 0,
+    left: 0
+},
+
+"#btnficha[platform=ios]": {
+	backgroundImage:"/images/pestana-hover-ficha-tecnica.jpg",
+    width: "50%",
+    height: "10%",
+    top: 0,
+    left: 0
+},
+
+'#btnfichaLbl[platform=ios]': {
+	color:"#FFF"
+},
+
+"#btnficha[platform=android]": {
+	backgroundImage:"/images/pestana-hover-ficha-tecnica.jpg",
+	title: "Ficha Técnica",
+	font:
+	{ 
+		fontFamily: "Helvetica-Light", 
+		fontSize: "28dp",
+		color: "#FFF" 
+	},
+    width: "50%",
+    height: "10%",
+    top: 0,
+    left: 0
+},
+
+'#btnfichaLbl[platform=android]': {
+	color:"#FFF",
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+},
+
+"#btnmuestra[platform=ios]": {
+	backgroundImage:"/images/pestana-ficha-tecnica.jpg",
+    width: "50%",
+    height: "10%",
+    top: 0,
+    left: "50%"
+},
+
+'#btnmuestraLbl[platform=ios]': {
+	color:"#FFF"
+},
+
+"#btnmuestra[platform=android]": {
+	backgroundImage:"/images/pestana-ficha-tecnica.jpg",
+	title: "Capítulo Muestra",
+	font:
+	{ 
+		fontFamily: "Helvetica-Light", 
+		fontSize: "28dp",
+		color: "#FFF" 
+	},
+    width: "50%",
+    height: "10%",
+    top: 0,
+    left: "50%"
+},
+
+'#btnmuestraLbl[platform=android]': {
+	color:"#FFF",
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+},
+
+'#imagePortada[platform=android]': {
+	top: "5%",
+	left: "10%",
+	height: "50%",
+	width: "80%"
+},
+
+'#imagePortada[platform=ios]': {
+	top: "5%",
+	left: "10%",
+	height: "60%",
+	width: "80%"
+},
+
+
+'#nameLbl[platform=android]': {
+	top: "20px",
+	left: "15%",
+	height: "30px",
+	width: "200px",
+	font: {
+	    fontSize: "20dp",
+	    fontFamily: "Helvetica-Light",
+	    fontWeight: "bold"
+	},
+	color: "#80b23e"
+},
+
+'#autorBlkLbl[platform=android]': {
+	top: "10px",
+	left: "15%",
+	height: "30px",
+	width: "50px",
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica-Light",
+	    fontWeight: "bold"
+	},
+	color: "#000"
+},
+
+'#autorLbl[platform=android]': {
+	top: "-30px",
+	left: "35%",
+	height: "30px",
+	width: "20%",
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica-Light"
+	},
+	color: "#000"
+},
+
+'#ilustradorBlkLbl[platform=android]': {
+	top: "5px",
+	left: "15%",
+	height: "30px",
+	width: "20%",
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica-Light",
+	    fontWeight: "bold"
+	},
+	color: "#000"
+},
+
+'#ilustradorLbl[platform=android]': {
+	top: "-30px",
+	left: "35%",
+	height: "30px",
+	width: "20%",
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica-Light"
+	},
+	color: "#000"
+},
+
+'#pagesBlkLbl[platform=android]': {
+	top: "5px",
+	left: "15%",
+	height: "30px",
+	width: "20%",
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica-Light",
+	    fontWeight: "bold"
+	},
+	color: "#000"
+},
+
+'#countryBlkLbl[platform=android]': {
+	top: "5px",
+	left: "15%",
+	height: "30px",
+	width: "20%",
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica-Light",
+	    fontWeight: "bold"
+	},
+	color: "#000"
+},
+
+'#typeBlkLbl[platform=android]': {
+	top: "5px",
+	left: "15%",
+	height: "30px",
+	width: "40%",
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica-Light",
+	    fontWeight: "bold"
+	},
+	color: "#000"
+},
+
+'#textField[platform=android]': {
+	top: "10px",
+	left: "15%",
+	width: "70%", 
+	height: Ti.UI.SIZE,
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica-Light"
+	},
+	color: "#000"
+},
+
+'#nameLbl[platform=ios]': {
+	top: "60px",
+	left: "15%",
+	height: "30px",
+	width: "200px",
+	font: {
+	    fontSize: "20dp",
+	    fontFamily: "Helvetica Neue",
+	    fontWeight: "bold"
+	},
+	color: "#80b23e"
+},
+
+'#autorBlkLbl[platform=ios]': {
+	top: "20px",
+	left: "15%",
+	height: "30px",
+	width: "20%",
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica Neue",
+	    fontWeight: "bold"
+	},
+	color: "#000"
+},
+
+'#autorLbl[platform=ios]': {
+	top: "-30px",
+	left: "35%",
+	height: "30px",
+	width: "20%",
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica-Light"
+	},
+	color: "#000"
+},
+
+'#ilustradorBlkLbl[platform=ios]': {
+	top: "10px",
+	left: "15%",
+	height: "30px",
+	width: "20%",
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica Neue",
+	    fontWeight: "bold"
+	},
+	color: "#000"
+},
+
+'#ilustradorLbl[platform=ios]': {
+	top: "-30px",
+	left: "35%",
+	height: "30px",
+	width: "20%",
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica-Light"
+	},
+	color: "#000"
+},
+
+'#pagesBlkLbl[platform=ios]': {
+	top: "10px",
+	left: "15%",
+	height: "30px",
+	width: "20%",
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica Neue",
+	    fontWeight: "bold"
+	},
+	color: "#000"
+},
+
+'#countryBlkLbl[platform=ios]': {
+	top: "10px",
+	left: "15%",
+	height: "30px",
+	width: "20%",
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica Neue",
+	    fontWeight: "bold"
+	},
+	color: "#000"
+},
+
+'#typeBlkLbl[platform=ios]': {
+	top: "10px",
+	left: "15%",
+	height: "30px",
+	width: "40%",
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica Neue",
+	    fontWeight: "bold"
+	},
+	color: "#000"
+},
+
+'#textField[platform=ios]': {
+	top: "20px",
+	left: "15%",
+	width: "70%", 
+	height: Ti.UI.SIZE,
+	font: {
+	    fontSize: "14dp",
+	    fontFamily: "Helvetica-Light"
+	},
+	color: "#000"
+},
+
+'#space': {
+	top: 0,
+	left: 0,
+	width: Ti.UI.FILL, 
+	height: "50px"
+},
+
+"#bottomBar": {
+	backgroundColor:"#424242",
+    width: Ti.UI.FILL,
+    height: "9%",
+    bottom: 0,
+    left: 0
+},
+
+'#bookBtn[platform=ios]': {
+ 	height: Ti.UI.FILL,
+ 	backgroundColor:"#424242",
+ 	top: 0,
+ 	left: 0,
+ 	width: '33%'
+},
+
+'#bookBtn[platform=android]': {
+ 	height: "50%",
+ 	backgroundColor:"#424242",
+ 	backgroundImage:"/images/book-icon.png",
+ 	top: "25%",
+ 	left: "15%",
+ 	width: '10%'
+},
+
+'#bookLbl[platform=ios]': {
+ 	backgroundImage:"/images/book-icon.png",
+ 	height: "50%",
+ 	width: "30%"
+},
+
+'#searchBtn[platform=ios]': {
+ 	height: Ti.UI.FILL,
+ 	backgroundColor:"#424242",
+ 	top: 0,
+ 	left: "33%",
+ 	width: '33%'
+},
+
+'#searchBtn[platform=android]': {
+ 	height: "50%",
+ 	backgroundColor:"#424242",
+ 	backgroundImage:"/images/search-icon.png",
+ 	top: "25%",
+ 	left: "45%",
+ 	width: '10%'
+},
+
+'#searchLbl[platform=ios]': {
+ 	backgroundImage:"/images/search-icon.png",
+ 	height: "50%",
+ 	width: "30%"
+},
+
+'#menuBtn[platform=ios]': {
+ 	height: Ti.UI.FILL,
+ 	backgroundColor:"#424242",
+ 	top: 0,
+ 	left: "66%",
+ 	width: '34%'
+},
+
+'#menuBtn[platform=android]': {
+ 	height: "50%",
+ 	backgroundColor:"#424242",
+ 	backgroundImage:"/images/menu-icon.png",
+ 	top: "25%",
+ 	left: "75%",
+ 	width: '10%'
+},
+
+'#menuLbl[platform=ios]': {
+ 	backgroundImage:"/images/menu-icon.png",
+ 	height: "50%",
+ 	width: "30%"
+ }

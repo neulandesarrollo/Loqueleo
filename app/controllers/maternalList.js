@@ -84,3 +84,40 @@ function doClick(e) {
 }
 
 $.table.setData(data); 
+
+$.table.addEventListener('click', function(e) {
+	if(e.rowData.title=="¿Quien soy yo?"){
+		Ti.App.Properties.setInt('book', 1);
+		var Profile = Alloy.createController('maternalbooks').getView();
+		Profile.open();
+		//alert("per");
+	}else if(e.rowData.title=="Yo grande, tú pequeño"){
+		Ti.App.Properties.setInt('book', 2);
+		var Profile = Alloy.createController('maternalbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="Un circo un poco raro"){
+		Ti.App.Properties.setInt('book', 3);
+		var Profile = Alloy.createController('maternalbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="¿De qué color es la cebra?"){
+		Ti.App.Properties.setInt('book', 4);
+		var Profile = Alloy.createController('maternalbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="Había una vez una nube"){
+		Ti.App.Properties.setInt('book', 5);
+		var Profile = Alloy.createController('maternalbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="¿Dónde está la estrella de mar?"){
+		Ti.App.Properties.setInt('book', 6);
+		var Profile = Alloy.createController('maternalbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="El libro que canta"){
+		Ti.App.Properties.setInt('book', 7);
+		var Profile = Alloy.createController('maternalbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="El señor cosquillas"){
+		Ti.App.Properties.setInt('book', 8);
+		var Profile = Alloy.createController('maternalbooks').getView();
+		Profile.open();
+	}
+});
