@@ -6,7 +6,7 @@
 			<Button id="btnmuestra" onClick="openTwo"><Label id="btnmuestraLbl">Capítulo Muestra</Label></Button>
 			<ScrollView id="scrollView" showVerticalScrollIndicator="true">
 				<ImageView id="imagePortada" />
-				<Label id="nameLbl">El Libro que Canta</Label>
+				<Label id="nameLbl">El hombresillo de la lluvia</Label>
 				<Label id="autorBlkLbl">Autora</Label>/Label>
 				<Label id="autorLbl">Yolanda Reyes</Label>
 				<Label id="ilustradorBlkLbl">Ilustradora</Label>/Label>

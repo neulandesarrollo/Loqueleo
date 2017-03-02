@@ -66,3 +66,41 @@ function doClick(e)
 }
 
 $.table.setData(data);
+
+
+$.table.addEventListener('click', function(e) {
+	if(e.rowData.title=="El hombresillo de la lluvia"){
+		Ti.App.Properties.setInt('book', 1);
+		var Profile = Alloy.createController('1ropreescolarbooks').getView();
+		Profile.open();
+		//alert("per");
+	}else if(e.rowData.title=="Mi papá es mágico"){
+		Ti.App.Properties.setInt('book', 2);
+		var Profile = Alloy.createController('1ropreescolarbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="¡Que confusión!"){
+		Ti.App.Properties.setInt('book', 3);
+		var Profile = Alloy.createController('1ropreescolarbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="No voy a leer este libro"){
+		Ti.App.Properties.setInt('book', 4);
+		var Profile = Alloy.createController('1ropreescolarbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="El tintodonte"){
+		Ti.App.Properties.setInt('book', 5);
+		var Profile = Alloy.createController('1ropreescolarbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="¿Dónde está la estrella de mar?"){
+		Ti.App.Properties.setInt('book', 6);
+		var Profile = Alloy.createController('1ropreescolarbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="El libro que canta"){
+		Ti.App.Properties.setInt('book', 7);
+		var Profile = Alloy.createController('1ropreescolarbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="El señor cosquillas"){
+		Ti.App.Properties.setInt('book', 8);
+		var Profile = Alloy.createController('1ropreescolarbooks').getView();
+		Profile.open();
+	}
+});º
