@@ -1,0 +1,28 @@
+<Alloy>
+	<Window class="container" id="maternalbook">
+		<View id="topBar"></View>
+		<View id="content">
+			<Button id="btnficha"onClick="openOne" ><Label id="btnfichaLbl">Ficha Técnica</Label></Button>
+			<Button id="btnmuestra" onClick="openTwo"><Label id="btnmuestraLbl">Capítulo Muestra</Label></Button>
+			<ScrollView id="scrollView" showVerticalScrollIndicator="true">
+				<ImageView id="imagePortada" />
+				<Label id="nameLbl">El hombresillo de la lluvia</Label>
+				<Label id="autorBlkLbl">Autora</Label>/Label>
+				<Label id="autorLbl">Yolanda Reyes</Label>
+				<Label id="ilustradorBlkLbl">Ilustradora</Label>/Label>
+				<Label id="ilustradorLbl">Cristina Lopez</Label>
+				<Label id="pagesBlkLbl">80 páginas</Label>/Label>
+				<Label id="countryBlkLbl">Colombia</Label>
+				<Label id="typeBlkLbl">Poesía y juego de palabras</Label>
+				<Label id="textField"></Label>
+				<View id="space"></View>
+			</ScrollView>
+			<WebView id="webview" url="" />
+		</View>
+		<View id="bottomBar">
+			<Button id="bookBtn"><Label id="bookLbl"></Label></Button>
+			<Button id="searchBtn"><Label id="searchLbl"></Label></Button>
+			<Button id="menuBtn" onClick="doClick"><Label id="menuLbl"></Label></Button>
+		</View>
+	</Window>
+</Alloy>

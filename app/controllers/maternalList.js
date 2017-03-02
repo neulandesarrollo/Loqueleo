@@ -78,7 +78,8 @@ var data = [{
 	title : 'El señor cosquillas'
 }];
 
-function doClick(e) {
+function doClick(e) 
+{
 	var home = Alloy.createController('index').getView();
 	home.open();
 }

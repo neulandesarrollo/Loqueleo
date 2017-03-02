@@ -84,3 +84,40 @@ function doClick(e)
 }
 
 $.table.setData(data);
+
+$.table.addEventListener('click', function(e) {
+	if(e.rowData.title=="Antes de mí"){
+		Ti.App.Properties.setInt('book', 1);
+		var Profile = Alloy.createController('3ropreescolarbooks').getView();
+		Profile.open();
+		//alert("per");
+	}else if(e.rowData.title=="Un libro"){
+		Ti.App.Properties.setInt('book', 2);
+		var Profile = Alloy.createController('3ropreescolarbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="La fiesta sorpresa"){
+		Ti.App.Properties.setInt('book', 3);
+		var Profile = Alloy.createController('3ropreescolarbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="Anabel y el monstruo del lago Ness"){
+		Ti.App.Properties.setInt('book', 4);
+		var Profile = Alloy.createController('3ropreescolarbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="Donde viven los lobos feroces"){
+		Ti.App.Properties.setInt('book', 5);
+		var Profile = Alloy.createController('3ropreescolarbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="Yanka, yanka"){
+		Ti.App.Properties.setInt('book', 6);
+		var Profile = Alloy.createController('3ropreescolarbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="Ya me llené de verduras"){
+		Ti.App.Properties.setInt('book', 7);
+		var Profile = Alloy.createController('3ropreescolarbooks').getView();
+		Profile.open();
+	}else if(e.rowData.title=="Días con sapo y sepo"){
+		Ti.App.Properties.setInt('book', 8);
+		var Profile = Alloy.createController('3ropreescolarbooks').getView();
+		Profile.open();
+	}
+});
