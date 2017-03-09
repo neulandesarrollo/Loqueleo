@@ -84,7 +84,8 @@ function doClick(e)
 	home.open();
 }
 
-$.table.setData(data); 
+$.table.setData(data);
+ 
 
 $.table.addEventListener('click', function(e) {
 	if(e.rowData.title=="¿Quien soy yo?"){
